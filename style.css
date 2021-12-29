@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#particles-js {
+  height: 100%;
+  background: #262626;
+}
+
+#box {
+  width: 10vw;
+  height: 10vw;
+  background-color: rgb(3, 67, 70);
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box p {
+  font-size: 1.7vw;
+  color: white;
+}
